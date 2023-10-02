@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	margin: 0; 
+	padding: 0;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+}
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.heading{
+	font-weight: 300;
+	padding: 25px 0;
+	color: #555;
+}
+/*=============== common part ============*/
+/*====================== hero part start ==========================*/
+.hero{
+	background: linear-gradient(#c847f1, #380231);
+}
+.nav{
+	padding: 5px 0;
+}
+.btn{
+	border: 2px solid #fff;
+	margin-left: 10px;
+	border-radius: 20px;
+	padding: 3px 18px;
+	color: #fff;
+	font-weight: 600;
+}
+.btn:hover{
+	background: #fff;
+	color: #000;
+	border-color: #fff;
+}
+.hero-content{
+	color: #fff;
+}
+.hero-img{
+	margin-top: 45px;
+}
+.hero-content h1{
+	font-weight: 700;
+	font-size: 75px;
+	margin-top: 12px;
+	letter-spacing: 3px;
+}
+.hero-img{
+	width: 350px;
+}
+.hero-img img{
+	width: 100%;
+}
+.hero-text .btn{
+	margin: 30px 0 0 0;
+}
+/*====================== hero part end ==========================*/
+/*====================== influencer part start ======================*/
+.influencer{
+	padding: 10px 0 40px 0;
+	margin-bottom: -250px;
+}
+.person-details h4{
+	font-weight: bold;
+	margin-top: 4px;
+	transition: .4s;
+}
+.influencer-con img:hover ~ .person-details h4{
+	color: #2580F7;
+}
+.influencer-con{
+	background: #fff;
+}
+/*====================== influencer part end =====================*/
+/*====================== profile part start =====================*/
+.profile{
+	background: linear-gradient(#c847f1, #380231);
+	padding: 160px 0;
+}
+.profile-card{
+	background: #fff;
+	border-radius: 8px;
+	padding: 40px;
+	margin-top: 150px;
+	margin-bottom: -300px;
+	box-shadow: 1px 1px 12px rgba(172, 44, 142, 1.0);
+}
+.profile-details{
+	background: #fff;
+}
+.profile-details h4{
+	color: #c847f1;
+	font-weight: 600;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.profile-details h5{
+	padding: 20px 0;
+}
+.count{
+	color: #c847f1;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.count h2{
+	font-size: 24px;
+}
+.counter{
+	display: inline-block;
+}
+.text{
+	font-size: 24px;
+	font-weight: normal;
+	display: inline-block;
+}
+.profile .btn{
+	color: #fff;
+	background-color: #c847f1;
+	padding: 5px 18px;
+	margin: 30px 0 0 0;
+	font-size: 18px;
+}
+/*====================== profile part end =====================*/
+.footer{
+	margin-top: 270px;
+	background: linear-gradient(#c847f1, #380231);
+}
+.footer-con{
+	padding: 60px 0 40px 0;
+}
+.store-icon{
+	width: 370px;
+	display: flex;
+	margin-left: 53%;
+	transform: translateX(-53%);
+}
+.store-icon img{
+	width: 40%;
+}
+.store-icon img:nth-child(1){
+	margin-right: 10px;
+}
+.footer-menu{
+	margin-top: 20px;
+}
+.footer-menu a{
+	margin: 0 30px;
+	color: #fff;
+}
+.footer p{
+	color: #fff;
+	background: linear-gradient(#380231, #c44f91);
+	padding: 7px 0;
+}
